@@ -5,11 +5,18 @@ function squareElem(){
     return square;
 }
 
+const button = document.getElementById('start').addEventListener('click', function(){
+    
+})
 //COLLEGAMENTO GRID NEL DOM
 const grid = document.getElementById('grid');
 
 //CICLO PER CREARE LA TABELLA
 for(let i=0; i<100; i++){
     let square = squareElem();
+    square.innerText = i + 1;
+    square.addEventListener('click',function(){
+        console.log(this);
+    })
     grid.append(square);
 }
