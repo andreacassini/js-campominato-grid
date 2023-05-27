@@ -25,6 +25,13 @@ button{
     border-radius: 4px;
 }
 
+select{
+    background-color: #e8e9ec9a;
+    padding: 0.1rem;
+    padding-right: 5rem;
+    border-radius: 4px;
+    
+}
 #logo{
     width: 60px;
     vertical-align: middle
