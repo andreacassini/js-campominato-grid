@@ -11,5 +11,5 @@ const grid = document.getElementById('grid');
 //CICLO PER CREARE LA TABELLA
 for(let i=0; i<100; i++){
     let square = squareElem();
-    
+    grid.append(square);
 }
