@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7effd5;
+}
+
+main{
+    margin: 3rem;
+    padding: 2rem;
+    display: flex;
+}
+
+#grid{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+}
+
+.square{
+    width: calc(1000px / 10);
+    height: calc(1000px / 10);
+    border: 1px solid black;
+}
