@@ -17,6 +17,7 @@ for(let i=0; i<100; i++){
     square.innerText = i + 1;
     square.addEventListener('click',function(){
         this.classList.toggle('clicked');
+        console.log('Casella n.'+square.innerText)
     })
     grid.append(square);
 }
