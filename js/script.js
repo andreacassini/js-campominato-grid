@@ -16,7 +16,7 @@ for(let i=0; i<100; i++){
     let square = squareElem();
     square.innerText = i + 1;
     square.addEventListener('click',function(){
-        console.log(this);
+        this.classList.toggle('clicked');
     })
     grid.append(square);
 }
