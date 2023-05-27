@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -11,9 +15,19 @@ header{
     margin: 1.5rem;
 }
 
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+}
 button{
     padding: 0.1rem 1.5rem;
     border-radius: 4px;
+}
+
+#logo{
+    width: 60px;
+    vertical-align: middle
 }
 
 a:visited {
