@@ -4,6 +4,9 @@ function squareElem(){
     square.classList.add('square')
     return square;
 }
+function showGrid() {
+    document.getElementById('grid').style.display = "flex";
+ }
 
 const button = document.getElementById('start').addEventListener('click', function(){
     
